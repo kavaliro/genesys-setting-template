@@ -1,7 +1,7 @@
 = Genesys Setting Template
 James Gilmore
 :toc:
-== Purpose
+
 :imagesdir: images
 :despair: image:GenesysDespair.svg[]
 :failure: image:GenesysFailure.svg[]
@@ -15,6 +15,8 @@ James Gilmore
 :difficulty: image:Difficulty.svg[]
 :boost: image:Boost.svg[]
 :setback: image:Setback.svg[]
+
+== Purpose
 
 This is a template for creating Genesys settings using Asciidoc. It's fancy enough to impress the natives, easy enough that you can _sic the natives on it,_ and in a format that Github understands (which makes it a breeze to share with the world.)
 
