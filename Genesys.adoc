@@ -45,9 +45,9 @@ Don't {threat}{threat} me, _pal!_
 |===
 | NAME | SKILL | DAM | CRIT | RANGE | ENCUM | PRICE | RARITY | Special
 
-8+| MELEE |
+9+| MELEE |
 | Fists o' Fury | Melee | +1 | 9 | Engaged | -- | -- | -- | --
-8+| RANGED |
+9+| RANGED |
 | Turbo Funkulator | Ranged (Heavy) | 9001 | 1 | Long | 13 | 42 | 6 | Disorient 5
 | WingDoodler | Ranged (Light) | 4 | 4 | Medium | 2 | 50 | 2 | --
 
