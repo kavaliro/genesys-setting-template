@@ -1,22 +1,65 @@
-= Genesys 
+= Genesys Setting Template
 James Gilmore
 :toc:
-
 == Purpose
+:imagesdir: images
+:despair: image:GenesysDespair.svg[]
+:failure: image:GenesysFailure.svg[]
+:threat: image:GenesysThreat.svg[]
+:advantage: image:GenesysAdvantage.svg[]
+:success: image:GenesysSuccess.svg[]
+:triumph: image:GenesysTriumph.svg[]
+:proficiency: image:Proficiency.svg[]
+:challenge: image:Challenge.svg[]
+:ability: image:Ability.svg[]
+:difficulty: image:Difficulty.svg[]
+:boost: image:Boost.svg[]
+:setback: image:Setback.svg[]
 
 This is a template for creating Genesys settings using Asciidoc. It's fancy enough to impress the natives, easy enough that you can _sic the natives on it,_ and in a format that Github understands (which makes it a breeze to share with the world.)
 
-.Sidebar
-****
-You know you love sidebars! This is how you do them.
-****
+
+== Dice
+
+I have a dicey proposition. *Formidable({difficulty}{difficulty}{difficulty}{difficulty}{difficulty})*
+
+Don't {threat}{threat} me, _pal!_
+
+{challenge}{proficiency}{ability}{difficulty}{boost}{setback}
+{despair}{failure}{threat}{advantage}{success}{triumph}
 
 == Equipment
-.Weapons
+
+.ARMOR
+[cols="3,1,1,1,1,1",options="header"]
+|===
+| NAME | DEFENSE | SOAK | ENCUMBRANCE | PRICE | RARITY 
+
+| Sackcloth | 0 | 1 | 1 | 1 | 1 
+| Linen | 0 | 1 | 1 | 1 | 1 
+
+|===
+
+.WEAPONS
+[cols="4,1,1,1,1,1,1,1,3",options="header"]
 |===
 | NAME | SKILL | DAM | CRIT | RANGE | ENCUM | PRICE | RARITY | Special
 
-| TurboFunkulator | Gunnery | 9001 | 1 | Long | 13 | 42 | 6 | Disorient 5
+8+| MELEE |
+| Fists o' Fury | Melee | +1 | 9 | Engaged | -- | -- | -- | --
+8+| RANGED |
+| Turbo Funkulator | Ranged (Heavy) | 9001 | 1 | Long | 13 | 42 | 6 | Disorient 5
+| WingDoodler | Ranged (Light) | 4 | 4 | Medium | 2 | 50 | 2 | --
+
+|===
+
+.GEAR
+[cols="3,1,1,1",options="header"]
+|===
+| ITEM | ENCUMBRANCE | PRICE | RARITY 
+
+| Rubber Hose | 1 | 10 | 1 
+| Deodorant | 1 | 5 | 1 
 
 |===
 
@@ -28,7 +71,7 @@ I didn't see any center justified entries in the Core Book. But: Asciidoc _does_
 == Vehicles
 
 === Starship Jefferson
-We built this city.
+We built this city. 
 
 :silhouette: 3
 :maxspeed: 4
@@ -38,7 +81,7 @@ We built this city.
 :armor: 4
 :defense: 2
 include::vehicleblock.adoc[] 
-*Rock and Roll:* There's only one way to do it.
+*Rock and Roll:* There's only one way to do it. Add {boost}{boost} to all Drive checks when AC/DC is jamming on the radio.
 
 == NPCs
 === Minion/Rival
@@ -93,5 +136,4 @@ include::characteristicblock.adoc[]
 * *Somthing Special:* Some special species thing here.
 * *Some Other Thing:* Some other thing here.
 
-== Dice
-a dicey proposition
+
