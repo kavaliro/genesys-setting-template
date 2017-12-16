@@ -2,14 +2,49 @@
 James Gilmore
 :toc:
 
-This is a template for creating Genesys settings using Asciidoc.
+== Purpose
+
+This is a template for creating Genesys settings using Asciidoc. It's fancy enough to impress the natives, easy enough that you can _sic the natives on it,_ and in a format that Github understands (which makes it a breeze to share with the world.)
+
+.Sidebar
+****
+You know you love sidebars! This is how you do them.
+****
 
 == Equipment
+.Weapons
+|===
+| NAME | SKILL | DAM | CRIT | RANGE | ENCUM | PRICE | RARITY | Special
+
+| TurboFunkulator | Gunnery | 9001 | 1 | Long | 13 | 42 | 6 | Disorient 5
+
+|===
+
+.Table Formatting
+****
+I didn't see any center justified entries in the Core Book. But: Asciidoc _does_ support that.
+****
 
 == Vehicles
 
+=== Starship Jefferson
+We built this city.
+
+:silhouette: 3
+:maxspeed: 4
+:handling: +3
+:ssthreshold: 25
+:htthreshold: 26
+:armor: 4
+:defense: 2
+include::vehicleblock.adoc[] 
+*Rock and Roll:* There's only one way to do it.
+
 == NPCs
 === Minion/Rival
+==== Average Joe
+Average Joes come in all shapes and sizes.
+
 :brawn: 1
 :agility: 2
 :intellect: 2
@@ -21,10 +56,29 @@ This is a template for creating Genesys settings using Asciidoc.
 :meleedefense: 1
 :rangeddefense: 1
 include::minionrivalblock.adoc[]
-=== Species
-Description of the species
+*Love Me:* Minions have feelings too!
 
-Lorem Ipsum yada yada.
+=== Nemesis
+==== The Jerk That Runs the Joint
+
+This is your Big Bad.
+
+:brawn: 3
+:agility: 5
+:intellect: 3
+:cunning: 4
+:willpower: 3
+:presence: 4
+:soakvalue: 4
+:woundthreshold: 12
+:strainthreshold: 12
+:meleedefense: 3
+:rangeddefense: 2
+include::nemesisblock.adoc[]
+*The Big Bad Special:* A barbedwire-wrapped baseball bat. (Or whatever.)
+
+=== Archetype/Species
+Hey! Don't stereotype me!
 
 ==== Species Abilities
 
