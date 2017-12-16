@@ -83,7 +83,9 @@ We built this city.
 :htthreshold: 26
 :armor: 4
 :defense: 2
-include::vehicleblock.adoc[] 
+
+[[include::vehicleblock.adoc]] 
+
 *Rock and Roll:* There's only one way to do it. Add {boost}{boost} to all Drive checks when AC/DC is jamming on the radio.
 
 == NPCs
@@ -101,7 +103,7 @@ Average Joes come in all shapes and sizes.
 :woundthreshold: 8
 :meleedefense: 1
 :rangeddefense: 1
-include::minionrivalblock.adoc[]
+[[include::minionrivalblock.adoc]]
 *Love Me:* Minions have feelings too!
 
 === Nemesis
@@ -120,7 +122,7 @@ This is your Big Bad.
 :strainthreshold: 12
 :meleedefense: 3
 :rangeddefense: 2
-include::nemesisblock.adoc[]
+[[include::nemesisblock.adoc]]
 *The Big Bad Special:* A barbedwire-wrapped baseball bat. (Or whatever.)
 
 === Archetype/Species
@@ -134,7 +136,7 @@ Hey! Don't stereotype me!
 :cunning: 2
 :willpower: 2
 :presence: 2
-include::characteristicblock.adoc[]
+[[include::characteristicblock.adoc]]
 
 * *Somthing Special:* Some special species thing here.
 * *Some Other Thing:* Some other thing here.
