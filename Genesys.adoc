@@ -122,7 +122,7 @@ This is your Big Bad.
 :strainthreshold: 12
 :meleedefense: 3
 :rangeddefense: 2
-[[include:nemesisblock]]
+include::nemesisblock.adoc[filetype=asciidoc]
 *The Big Bad Special:* A barbedwire-wrapped baseball bat. (Or whatever.)
 
 === Archetype/Species
