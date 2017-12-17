@@ -1,7 +1,7 @@
 = Genesys Setting Template
 James Gilmore
 :toc:
-
+:unsafe: unsafe
 :imagesdir: images
 :despair: image:GenesysDespair.svg[]
 :failure: image:GenesysFailure.svg[]
